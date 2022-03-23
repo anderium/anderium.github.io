@@ -15,4 +15,5 @@ Het geheim bleek dat iedere puzzel op een of andere manier een hint vormde voor 
 
 ## Video's
 
+- Sam (WIDM TV): https://www.youtube.com/watch?v=9P6EGAwgXoM
 - Siem: https://www.youtube.com/watch?v=Z_6lC22uENo
