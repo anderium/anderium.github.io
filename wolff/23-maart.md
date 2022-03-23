@@ -16,7 +16,7 @@ dus tot de volgende dag onmogelijk om een nieuwe code te proberen.  De vier slot
 3. Een sleutel (S)
 4. Een kaartslot (K), met 4 kaartsoorten
 
-> Getallen, letters en kaartsoorten *mogen* in hun codes meerdere keren voor komen.
+> Getallen, letters en kaartsoorten **mogen** in hun codes meerdere keren voor komen.
 
 ---
 

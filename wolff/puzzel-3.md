@@ -7,5 +7,5 @@ werkelijkheid is dit [morse](https://nl.wikipedia.org/wiki/Morse) en verdelen de
 Een wit bolletje staat voor een korte toon (punt) en een zwart bolletje stelt een lange toon (streep) voor.
 
 Als we dit ontcijferen krijgen we `volgendeaanwijzingoptweeplekken`.  Dit betekent dat er niet alleen in de
-boekenwinkel van [./puzzel-2.md] een aanwijzing te vinden is, maar dat er dus ook op een andere plek zal moeten worden
-gezocht.
+boekenwinkel van [puzzel 2](./puzzel-2.md) een aanwijzing te vinden is, maar dat er dus ook op een andere plek zal
+moeten worden gezocht.
