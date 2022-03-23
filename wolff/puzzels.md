@@ -1,4 +1,4 @@
-# De eerste puzzels
+# De cirkel is rond
 
 De video van Siem onderaan deze pagina beschrijft het begin van de speurtocht.  Later zal hier ook een geschreven samenvatting komen.
 
@@ -12,8 +12,7 @@ Het geheim bleek dat iedere puzzel op een of andere manier een hint vormde voor 
 5. [Toetsenbord of niet](./puzzel-5.md)
 6. [Pig-pen of niet](./puzzel-6.md)
 
-
 ## Video's
 
-- Sam (WIDM TV): https://www.youtube.com/watch?v=9P6EGAwgXoM
-- Siem: https://www.youtube.com/watch?v=Z_6lC22uENo
+- Sam (WIDM TV): <https://www.youtube.com/watch?v=9P6EGAwgXoM>
+- Siem: <https://www.youtube.com/watch?v=Z_6lC22uENo>

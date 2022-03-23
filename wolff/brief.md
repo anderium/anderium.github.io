@@ -1,6 +1,6 @@
 # Brief
 
-De brief die bij het pakketje zat, bevatte informatie over van alles<sup>later zal ik dit beter uitschirjven</sup>, maar er viel nog iets op.
+De brief die bij het pakketje zat, bevatte informatie over het jagen op vossen, maar er viel nog iets op.
 Alle brieven bevatte dikgedrukte letters en deze kwamen niet overeen als de brieven werden vergeleken.
 Als je alle dikgedrukte letters achter elkaar zet, krijg je de volgende zinnen.
 
@@ -31,7 +31,7 @@ heel snel.  Het doortrapte beest wist vaak aan zijn lot te ontkomen tot grote fr
 jagers.  Tegenwoordig is het verboden om nog op vossen te jagen en leiden ze een rustig leventje
 in de bossen en steppes.
 
-Het is neit willekeurig dat ik je dit vertel.  Ook het pakketje dat bij jou voor de deur stond heeft
+Het is niet willekeurig dat ik je dit vertel.  Ook het pakketje dat bij jou voor de deur stond heeft
 een betekenis.  Nu je dit leest ben je onderdeel geworden van een groter geheel.  Sterker nog, je
 bent het beginpunt waar vanaf alles start.  De duw die de bal doet laten rollen.  Een bal die groter
 en groter zal worden naarmate het de besneeuwde berg afrolt.  Eén die afstefvent op iets wat in
@@ -49,7 +49,7 @@ nauw drijven.  Sluit deze wijsheid in je hart:
 _“De paden zijn al voor u uitgezet.  Leun niet op eigen inzicht, maar vertrouw op dat wat
 zichtbaar is.  Zoek niet iets daarbuiten, want je zult niets vinden wat je ten goede werkt.”_
 
-Nu gaat het beginnen .  Vanaf het moment dat je bent begonnen met lezen is er een klok gaan
+Nu gaat het beginnen.  Vanaf het moment dat je bent begonnen met lezen is er een klok gaan
 lopen.  Hoe lang deze duurt is voor niemand bekend behalve mij (Of is dat zo?).  Als je binnen
 deze tijd de vos niet gevonden hebt zul je het puzzelstukje nooit krijgen.
 

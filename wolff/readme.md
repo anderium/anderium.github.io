@@ -1,6 +1,6 @@
 # Wie is de Wolff?
 
-8 bekende “Wie is de mol?” theorie besprekers van 6 verschillende kanalen kregen een mysterieus pakketje van Thomas Leo Wolff.
+8 bekende “Wie is de mol?” theoristen van 6 verschillende kanalen kregen een mysterieus pakketje van Thomas Leo Wolff.
 Dit pakketje bevatte verschillende puzzels die het begin van een lange speurtocht leken.
 
 Al snel werd duidelijk dat iedereen een eigen kleur had.  (De vraag is echter of dit relevant blijft.)
@@ -16,6 +16,6 @@ Het instagram account van de mysterieuze Wolff is: [@thomasleowolff](https://www
 
 ## De speurtocht
 
-0. [Het pakketje ontvangen](./start.md)
-1. [De eerste zes puzzels](./puzzels.md)
+0. [De jacht is geopend…](./start.md)
+1. [De cirkel is rond](./puzzels.md)
 2. [23 maart](./23-maart.md)
