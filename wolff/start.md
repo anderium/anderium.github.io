@@ -10,7 +10,7 @@ Dit was natuurlijk vreemd, maar al snel werd duidelijk dat er meerdere van dit s
 Het pakketje bevatte:
 
 - [Een brief](./brief.md),
-- (Wellicht niet bij iedereen?) De tekst V.A. zaterdag 19:00u = 3364 (of 336u),
+- De tekst `V.A. zaterdag 19:00u = 3364` (of 336u) op de doos geschreven,
 - Een houten/bamboe envelop met;
   - Een hoedje met een gekleurde veer en een getal aan de binnenkant,
   - Een zwarte pas waarop de [naam] en VIP staat,
