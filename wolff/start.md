@@ -20,5 +20,5 @@ Het pakketje bevatte:
 
 ## Video's
 
-- Sam (WIDM TV): <https://www.youtube.com/watch?v=YHZZvRzv3AQ>
-- Siem: <https://www.youtube.com/watch?v=dCi97Q2l4mo>
+- Sam (WIDM TV): <https://youtu.be/YHZZvRzv3AQ>
+- Siem: <https://youtu.be/dCi97Q2l4mo>
