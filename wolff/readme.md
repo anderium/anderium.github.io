@@ -1,5 +1,8 @@
 # Wie is de Wolff?
 
+**DEZE SITE IS VEROUDERD, IK BEN NIET MEER BEZIG GEWEEST ALLES OP EEN RIJ TE ZETTEN.  MISSCHIEN DAT IK ER OOIT NOG MEE**
+**VERDER GA, MAAR GA DAAR NIET VAN UIT.**
+
 8 bekende “Wie is de mol?” theoristen van 6 verschillende kanalen kregen een mysterieus pakketje van Thomas Leo Wolff.
 Dit pakketje bevatte verschillende puzzels die het begin van een lange speurtocht leken.
 
