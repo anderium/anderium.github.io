@@ -15,8 +15,8 @@ add type hints that account for operations that add or remove a number of rows f
 impossible for statically inferring everything, because that would probably lead to the ability to program with the
 type hints, something that seems really weird.
 
-The only reason I made this page is that I was looking into this today anyway for answering a question on a private
-forum and I wanted a place to put the text below:
+The reason I made this page is that I was looking into this anyway for answering a question on a private forum after it
+piqued my interest.  (And I needed a place to put the text below so it wouldn't get lost to time.)
 
 > There is a [PEP-646] accepted for Python 3.11 that goes into basic implementation for shapes, but it has not yet been
 > implemented entirely for numpy and IDE type checking (mypy does not yet support `TypeVarTuple`).  The problem with

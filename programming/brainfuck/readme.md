@@ -1,13 +1,13 @@
 # Brainfuck
 
-The programming language brainfuck, or brainf*ck, contains only 8 instructions, yet it is Turing complete.  I've
-programmed in it and can attest that it is fun, you should try it!  The website [copy.sh/brainfuck][copyshbf] has a
-nice interface to start learning and create more complex programs.
+The programming language brainfuck, or brainf*ck, contains only 8 instructions, yet you can do everything, theoretically
+(it is Turing complete).  I've programmed in it and can attest that it is fun, you should try it!  The website
+[copy.sh/brainfuck][copyshbf] has a nice interface to start learning and create more complex programs.
 
 ## Visual Studio Code
 
 You can also download some code-highlighting extensions for most popular IDE's, which can be useful if you downloaded a
-program.  There's also an interpreter for VS Code, but after trying that I didn't like it.  I'm hoping to one day
+program.  There's also an interpreter for VS Code, but I didn't like it after trying shortly.  I'm hoping to one day
 actually create a more full-fledge one, but so far I did not spend enough time to learn how to create an extension I'd
 personally want to use.  If I do work on that, I'll post about it here, I guess?  The idea is to have a code
 highlighter, interpreter and debugger that are meant to work together.
@@ -25,7 +25,7 @@ By default, brainfuck programs are written with ASCII (or UTF-8) and only the op
 interpreted.  Of course, you can easily compress any brainfuck program by simply removing all non-operator characters,
 but you can easily improve upon this.  There are only 8 operations and because $2^3=8$, we can further compress all
 programs by 62.5%.  This might be slightly inefficient to decode, as the operations aren't byte aligned, but a 50%
-compression by using 4 bits would be fine if speed is necessary.
+compression by using 4 bits would be fine if that speed is necessary.
 
 As soon as I intended writing this section, I realised that the obvious compression of 3 bits per operator might be
 unbalanced, some operators occur much more or much less frequently than others.  I came up with two different
@@ -34,7 +34,6 @@ though, I would like to point out that compressing this way does not have to be 
 compression algorithms that have been proven to work well on text and these algorithms will very likely also perform
 well for compressing brainfuck programs.
 
----|---
 Op | bits
 ---|---
 \+ |  10
@@ -45,11 +44,21 @@ Op | bits
  ] | 0001
  . | 00001
  , | 00000
----|---
+   |
  [ | 0011
  ] | 0010
  . | 0001
  , | 0000
----|---
 
-[copyshbf]: copy.sh/brainfuck
+## Variants
+
+As always with things that become popular, there will be variants that pop up.  I don't actually know how any variants
+work, but one I like the concept of is [`jsfuck`].  While not being an extension to brainfuck, it is possible to write
+Javascript programs using only six characters (`()[]+!`).  This actually has security implications for allowing
+usercode on websites, because it means simply scanning for attampted XSS-attacks isn't possible.  eBay allows sellers to
+provide their own script and according to [ArsTechnica][ebay-sec] they do not want to fix this issue.  (So whenever you
+shop at eBay, remember you could be at risk.)
+
+[copyshbf]: https://copy.sh/brainfuck
+[ebay-sec]: https://arstechnica.com/information-technology/2016/02/ebay-has-no-plans-to-fix-severe-bug-that-allows-malware-distribution/
+[`jsfuck`]: https://en.wikipedia.org/wiki/JSFuck

@@ -7,8 +7,9 @@ can improve, this is a public repo, so you can submit a PR and I'll take a look.
 As I'm interested in lots of unrelated things, I'll list the things I have pages for here.
 
 * [Ergonomic keyboards and keyboard layouts](./keyboards/readme.md),
-* [The constructed language toki pona](./toki-pona/readme.md)
-* [The esoteric programming language brainfuck](./brainfuck/readme.md)
+* [The constructed language toki pona](./toki-pona/readme.md),
+* [Esoteric programming languages](./programming/esoteric-languages.md) like [brainfuck](./programming/brainfuck/readme.md) and [piet](./programming/piet/readme.md),
+* [And other programming things](./programming/readme.md).
 
 Most subdirectories will probably not have anything in common, but you can obviously still visit them all by looking at
 the directories I have.  Some might not be in English though, I'm inactively learning Toki Pona and natively speak
