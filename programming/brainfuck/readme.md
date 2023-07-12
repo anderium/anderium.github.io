@@ -4,6 +4,12 @@ The programming language brainfuck, or brainf*ck, contains only 8 instructions, 
 (it is Turing complete).  I've programmed in it and can attest that it is fun, you should try it!  The website
 [copy.sh/brainfuck][copyshbf] has a nice interface to start learning and create more complex programs.
 
+## Example program
+
+```brainfuck
+++++[->+++++[->+++++>+++++<<]>+++<<]>>>---.<--.>+++.+.<++++.>++++.<+++.--------.
+```
+
 ## Visual Studio Code
 
 You can also download some code-highlighting extensions for most popular IDE's, which can be useful if you downloaded a
@@ -54,8 +60,8 @@ Op | bits
 
 As always with things that become popular, there will be variants that pop up.  I don't actually know how any variants
 work, but one I like the concept of is [`jsfuck`].  While not being an extension to brainfuck, it is possible to write
-Javascript programs using only six characters (`()[]+!`).  This actually has security implications for allowing
-usercode on websites, because it means simply scanning for attampted XSS-attacks isn't possible.  eBay allows sellers to
+Javascript programs using only six characters (`()[]+!`).  This can actually have security implications when allowing
+user code on websites, because it means simply scanning for attempted XSS-attacks isn't enough.  eBay allows sellers to
 provide their own script and according to [ArsTechnica][ebay-sec] they do not want to fix this issue.  (So whenever you
 shop at eBay, remember you could be at risk.)
 

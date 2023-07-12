@@ -10,6 +10,16 @@ the operations, you always have to keep the [map] at the ready.  As you are driv
 your fuel is used and so you need to stop by different stations.  You also can't just fuel unlimitedly, you first need
 to earn money by dropping off pasesnger to be able to pay anything.
 
+## Example program
+
+```taxi
+"anderium" is waiting at Writer's Depot.
+Go to Writer's Depot: west 1st left, 2nd right, 1st left, 2nd left.
+Pick up a passenger going to the Post Office.
+Go to the Post Office: north 1st right, 2nd right, 1st left.
+Go to the Taxi Garage: north 1st right, 1st left, 1st right.
+```
+
 ## Golfing
 
 Golfing refers to the process of writing code that minimises the number of characters in the solution.  It's a common
