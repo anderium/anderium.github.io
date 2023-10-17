@@ -2,8 +2,8 @@
 
 This is a list of the sudokus that I have solved.  Not all sudokus I solved are here, obviously I solved simpler ones
 that aren't variants and I forgot some as well.  If I solved a sudoku with a hint I will mark it explicitly and for
-newer sudokus also give the hint I needed as a [hover message](# "such as this hover text").  Links to where to play
-are provided, but who knows whether they are permanent.
+newer sudokus include the hint I needed as a [hover message](# "such as this hover text").  Links to where to play are
+provided, but who knows whether they are permanent.
 
 I will try to also keep track of a [ranking], but that's rather arbitrary.
 
@@ -14,6 +14,12 @@ Because I don't want to edit the numbers every time, let markdown handle the act
 1. **name** by *creator(s)*.  [Play](link), [no hints | [hint X](# "hint description")], T min.
 -->
 
+1. **Unique Sum Sudoku** by *I Love Sleeping & Myxo*.  [Play](https://app.crackingthecryptic.com/sudoku/nLjQ8DjNRJ), no hints, 111 min, wow.
+1. **Secrets and Lines** by *Starwarigami*.  [Play](https://app.crackingthecryptic.com/sudoku/MTtdF66hqN), no hints, 166 min, I've been so slow with the last few.
+1. **Circles and Thermos** by *stimim*.  [Play](https://app.crackingthecryptic.com/sudoku/dGL3DgJgJd), no hints, 90 min until a mistake + 90 min from scratch, I was also doing other things half the time.
+1. **Wheels on the Bus** by *Alaric Taqi A. (Crusader175)*.  [Play](https://yusitnikov.github.io/puzzletv/#wheels-on-the-bus), no hints, 20 min for wheels and 15 min for final solve.
+1. **Benebelte Nachbarschaft** by *Myxo*.  [Play](https://app.crackingthecryptic.com/sudoku/L9M2DLtfrh), no hints, 15 min + 45 min stuck [hint](# "Row 4 column 3 is surprisingly restricted.") + 90 min, I was sick and also in a call with people.
+1. **Decimation** by *James Sinclair*.  [Play](https://app.crackingthecryptic.com/sudoku/fmRMNJ6TmT), no hints, 19 min before realising ALL Xs are given + 30 min from scratch.
 1. **Cascade** by *Xendari*.  [Play](https://app.crackingthecryptic.com/sudoku/Dr42ftb8JG), somehow no hints, ≈95 min + 77 min 2nd attempt from scratch.
 1. **Fog X** by *Chameleon*.  [Play](https://beta.sudokupad.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), no hints, 27 min.
 1. **Fog, Deconstructed** by *James Sinclair*.  [Play](https://app.crackingthecryptic.com/sudoku/p9TjBQfq8f), no hints, 65 min.
@@ -33,6 +39,7 @@ Because I don't want to edit the numbers every time, let markdown handle the act
 Because I don't actually have a place to put other puzzles I just have them here too.  I will not explain what's
 different about the puzzles, as that depends on the puzzle, but none of them are sudoku variants.
 
+1. **Mole's Star Battle** by *Numberphile and Jane Street*.  [Play](https://www.janestreet.com/numberphile-2023/), 12 min.  Pretty fun, I thought it was rather easy.
 1. **Border Count Pentominous** by *Gliperal*.  [Play](https://app.crackingthecryptic.com/sudoku/9dR9Gtj6R8), [hint 1](# "Don't start with the 7 clues, start with the 2 clue for row 2!"), [hint 2](# "Use the same ideas to go down for the 4 clue and then the horizontal 5 clue, etc."), 56? min.
 
 [ranking]: ./ranking.md
