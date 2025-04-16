@@ -1,4 +1,4 @@
-<!-- markdownlint-configure-file { "no-inline-html": { "allowed_elements": ["script", "input", "label", "p"] } } -->
+<!-- markdownlint-configure-file { "no-inline-html": { "allowed_elements": ["script", "input", "label", "p", "textarea"] } } -->
 # CYOAF Save Manager Injector
 
 Adds four scenes and five tags to a CYOA Factory Story to create a save system.
@@ -837,7 +837,7 @@ ${array_names.map(x => x + " || []").join(',\n')}
 
 <label for="story">Story file to add save to</label>: <input type="file" id="story" disabled>
 
-<label for="array-tags">Put tags that are arrays here, if any</label>: <textarea id="array-tags"></textarea>
+<label for="array-tags">Put tags that are arrays here, if any (comma separated)</label>: <textarea id="array-tags"></textarea>
 
 ## Output file
 
