@@ -6,6 +6,7 @@ Adds four scenes and five tags to a CYOA Factory Story to create a save system.
 <script>
 window.addEventListener('DOMContentLoaded', () => {
   const inputElement = document.getElementById("story")
+  const arraysElements = document.getElementById("array-tags")
 
   const errorElement = document.getElementById("error")
   const outputElement = document.getElementById("output")
@@ -370,7 +371,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         {
                             "tag": "ta4i8p-wA",
                             "op": "<f>",
-                            "value": "created_save = saves[length saves - 1];\nactual_saves_shouldnt_disappear = slice(saves, 0, length saves - 1);\nfake_save = map(increment(x, idx) = idx ? idx : x, created_save);\nactual_saves_shouldnt_disappear || [fake_save]\n",
+                            "value": "created_save = saves[length saves - 1];\nactual_saves_shouldnt_disappear = slice(saves, 0, length saves - 1);\nfake_save = map(increment(x, idx) = idx ? \"\" || idx : x, created_save);\nactual_saves_shouldnt_disappear || [fake_save]\n",
                             "id": "9ZVN0Ld9A"
                         },
                         {
@@ -593,7 +594,8 @@ window.addEventListener('DOMContentLoaded', () => {
                             "value": "saves[selected_save]",
                             "id": "KOqX7oBjI"
                         }
-                    ]
+                    ],
+                    "layout": "top"
                 },
                 {
                     "id": 2,
@@ -788,6 +790,32 @@ window.addEventListener('DOMContentLoaded', () => {
       return
     }
 
+    const array_names = arraysElements.value.split(",").filter(x=>x).map(x=>x.trim())
+    const tags_and_arrays = story.tags.filter(x => x.type === "tag")
+    const tags = tags_and_arrays.filter(x => array_names.indexOf(x.name) === -1)
+    ADDED_SCENES[1].directions[5].effects[0].value = `[["save_version_1", length saves, new_save_name],
+
+${tags.map(x => x.name).join(',\n')}${tags && array_names ? ',' : ''}
+${array_names.map(x => x + " || []").join(',\n')}
+]`
+    ADDED_SCENES[3].directions[1].effects = tags.map((x, index) => { return {
+            "tag": x.id,
+            "op": "<f>",
+            "value": `selected_save[${1 + index}]`,
+            "id": "aY4MN_M6B"
+        }}
+    )
+    ADDED_SCENES[3].directions[1].effects.push(
+        ...tags_and_arrays.filter(x => array_names.indexOf(x.name) !== -1)
+        .map((x, index) => { return {
+                "tag": x.id,
+                "op": "<f>",
+                "value": `selected_save[${tags.length + 1 + index}] || []`,
+                "id": "aY4MN_M6B"
+            }}
+        )
+    )
+
     story.updated = new Date().getTime()
     story.scenes.push(...ADDED_SCENES)
     story.tags.push(...ADDED_TAGS)
@@ -799,15 +827,17 @@ window.addEventListener('DOMContentLoaded', () => {
       errorElement.style.display = "block"
     }
 
-    const blob = new Blob([JSON.stringify(story)], { type: "application/json" });
-    outputElement.innerHTML = `<a download="${filename || "story.json"}" href="${window.URL.createObjectURL(blob)}">Download result</a>`
+    const blob = new Blob([JSON.stringify(story, undefined, 2)], { type: "application/json" });
+    outputElement.innerHTML = `<a download="${filename || "story.json"}" href="${window.URL.createObjectURL(blob)}">Download result.</a> <span style="color: red;">New tags must be manually added!</span>`
   }
 })
 </script>
 
 ## Input file
 
-<label for="story">Story file to add save to</label>: <input type="file" label="" id="story" disabled>
+<label for="story">Story file to add save to</label>: <input type="file" id="story" disabled>
+
+<label for="array-tags">Put tags that are arrays here, if any</label>: <textarea id="array-tags"></textarea>
 
 ## Output file
 
@@ -815,10 +845,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
 <p id="output">Output will be here</p>
 
-Once you've downloaded the story, you need to edit two scenes. They are marked with two exclamation marks (!!) in front
-of them. These scenes contain additional instructions, simply put you need to manually select which tags to save, and
-manually ensure the order matches. You also should add redirects from the “load save” scene to wherever the readers need
-to return after loading their save.
+You should redirect to the save menu in places where readers may make saves. You should add redirects from the “load
+save” scene to wherever the readers need to return after loading their save.
 
-I might at some point add code that saves all existing tags (but not action tags, list tags, or reference tags), however
-I would need motivation for it.
+To add tags once you've already injected the save manager you need to edit two scenes. They are marked with two
+exclamation marks (!!) in front of them. These scenes contain additional instructions. Simply put you need to manually
+add the new tags to the formula that creates the save, and manually match them in the save loading.
