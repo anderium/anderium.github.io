@@ -4,7 +4,7 @@ The programming language [Piet] is for creating abstract art that can function a
 where each codel (square group of pixels) has a meaning depending on transitions to its neighbours.  There is also an
 ASCII implementation, but developing with this is obviously less exciting.
 
-You can find a great editor on [piet.bubbler.one], thanks Bubbler-4!
+You can find a great editor on [piet.bubbler.blue], thanks Bubbler-4!
 
 ## Example program
 
@@ -38,5 +38,5 @@ an explanation how it works as well.
 [ascii-piet]: https://github.com/dloscutoff/ascii-piet
 [double speak]: https://codegolf.stackexchange.com/a/254811/89860
 [Piet]: https://www.dangermouse.net/esoteric/piet.html
-[piet.bubbler.one]: https://piet.bubbler.one/
+[piet.bubbler.blue]: https://piet.bubbler.blue/
 [run-anderium]: https://piet.bubbler.one/#eJw9j90KgzAMhd8l10cwdtrWVxEvhutAcJvgdjV89yVtuhJCer78fml53RKN0-TAfbUIdhjALUSFn1ForLADh2pgztwpDuhRUkL2YC3WaBDsVciqBZ1C_kOHTmUr9Qa5QlWtCYK1jTrOYEDdKAptdc2yi_hLoXZexpKg86TU66WyhAYZz6Aj7TRS0zQE2taHxNzKk186Fhrv1-1IoPW5f97C6PwBdbJG8A
