@@ -25,7 +25,7 @@ Sudokus in reverse order of creation.
 Because I do not intend to give full solutions, you will have to calculate the SHA256 sum for the string of the rows
 directly concatenated.  (E.g. for a 4 by 4 sudoku that might be `sha256(1234341241232341) == 6db89a...`.)  You can get
 this easily from the command line with `echo -n solution | sha256sum` on Linux and `echo -n solution | shasum -a 256` on
-MacOS.
+MacOS, or use [this online link][ciphereditor sha256].
 
 If I made a mistake with entering the solution, please open a Github issue or message me so I can double check it and
 update the hash here if necessary.
@@ -38,3 +38,5 @@ update the hash here if necessary.
 1. **Crosses and dots**:  `9fd780d026889a0e0a510fff1f74495fd3c249c722d1664986b2f60bfe006277`.
 1. **Snakes and ladders (0)**:  `62ece6b9c17bb2403e247ac4316ddca81b28ac701162cdd774cd7309de7f4653`.
 1. **Snakes and ladders**:  `9e3f88814d8ae1219b9b30c2117f4189f8b36416374453ca4bf044fbd654bc92`.
+
+[ciphereditor sha256]: https://ciphereditor.com/share#blueprint=eyJ0eXBlIjoiYmx1ZXByaW50IiwicHJvZ3JhbSI6eyJ0eXBlIjoicHJvZ3JhbSIsIm9mZnNldCI6eyJ4IjowLCJ5Ijo1NzN9LCJmcmFtZSI6eyJ4IjotMTYwLCJ5IjotOTYsIndpZHRoIjozMjAsImhlaWdodCI6MTkyfSwiY2hpbGRyZW4iOlt7InR5cGUiOiJvcGVyYXRpb24iLCJuYW1lIjoiQGNpcGhlcmVkaXRvci9leHRlbnNpb24taGFzaC9oYXNoIiwiZXh0ZW5zaW9uVXJsIjoiaHR0cHM6Ly9jZG4uY2lwaGVyZWRpdG9yLmNvbS9leHRlbnNpb25zL0BjaXBoZXJlZGl0b3IvZXh0ZW5zaW9uLWhhc2gvMS4wLjAtYWxwaGEuMS9leHRlbnNpb24uanMiLCJwcmlvcml0eUNvbnRyb2xOYW1lcyI6WyJtZXNzYWdlIiwiYWxnb3JpdGhtIiwiaGFzaCJdLCJmcmFtZSI6eyJ4IjotMzA5LCJ5IjoyMjksIndpZHRoIjozMjAsImhlaWdodCI6NDQ2fSwiY29udHJvbHMiOnsibWVzc2FnZSI6eyJ2YWx1ZSI6IjEyMzQzNDEyNDEyMzIzNDEiLCJ2aXNpYmlsaXR5IjoiZXhwYW5kZWQifSwiYWxnb3JpdGhtIjp7InZhbHVlIjoic2hhMjU2IiwidmlzaWJpbGl0eSI6ImV4cGFuZGVkIn0sImhhc2giOnsidmFsdWUiOiI2ZGI4OWE0ZjEzN2IxMzIxMDVhZDZhZjBkMzUyZDY3MjcwNjI3ODlkOTY3YmUxY2VjYjEyYWJiZWQxNjFjMTYwIiwidmlzaWJpbGl0eSI6ImV4cGFuZGVkIn19fV19fQ
