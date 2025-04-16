@@ -1,0 +1,21 @@
+# The main things to know about programming and computers (2024-04-07)
+
+Tough question. I'm gonna try to keep it short, but that's quite impossible if I also explain things. I'm also tired cause it's 1am lol.
+
+1. Everything is just zeros and ones (bits). You hear this all the time, but it's true. However, when considering anything a computer does, it actually packages these into 8-bit bytes and 64-bit words. Which are base-2 numbers.
+2. Text is also represented with numbers. Not simply a=1, but pretty much that; it's a table mapping numbers to letters. There's not just one interpretation though, there's hundreds. All of them are incompatible or only compatible one way. The most commonly seen are: ASCII, which is ancient and 7-bit only, but keeps being referenced; Latin-1, which is 8-bit extension; and UTF-8, which is also an 8-bit extension, except with support for all characters ever and more. If you've ever seen text be corrupted, it's likely because it changed between incompatible encodings.
+3. But websites are also just text. The layout and links and buttons, anyway, the images aren't text (†). So if you can write custom text on a website, the website should be really careful you don't actually change their page! We're digressing though, let's get back to the command line.
+4. Using a terminal will force you to use folders to interact with your computer. It's gonna make you organise your files, which I guess isn't an issue with computer search, but it's better if you make backups of only specific sections of your computer. (Make backups btw. (And use a password manager. (And maybe set your personal info on insta, tiktok, etc. private))) But actually, having some coding knowledge is useful regardless if it's terminal (shell, bash, zsh, etc.), or C, JavaScript, Python or even Scratch. Because, like I said, computers do what you say, not what you mean. Opiniated tangent aside,
+    1. Actually, what I mean you should get from the terminal is to learn to think about tasks sequentially and to learn that in computers, everything builds on top of the previous things A LOT.
+5. Having knowledge of any programming language and typical terms like booleans (true-false, or truthy and falsy) allows you to recognise when something goes wrong. To take an example, if you leave something blank in a form you fill in and that trips out, you might realise there's bad handling of missing values. If an install fails because of permissions, you might realise you installed something in the wrong place. And please for the love of everyone's patience: [nohello.net](nohello.net), [dontasktoask.com](dontasktoask.com), [how-to-properly-ask-a-question.surge.sh](how-to-properly-ask-a-question.surge.sh).
+6. Speaking of, it can help prevent against some scams and fearmongering. Knowing that some information cannot (or should not unless there's an exploit that allows it to) be determined remotely or by an external party, you will hopefully be less susceptible to e.g. login steals that say they need to verify your account but actually are fake.
+
+(†) Well… you can do Base64 encoding of images actually. It uses upper and lowercase letters, digits and two additional characters—typically plus and slash, or hyphen and underscore—to represent binary data with text. “Why?” is a good question, because it seems very redundant. I don't actually know. To make it possible to transfer over the web more easily, maybe?
+
+(‡) Parallel computing does exist, and it leads to all sorts of issues that are headaches to even the most experienced programmers. (Even though technically it's still not 100% parallel, it's being faked at the kernel level. (Except faked is definitely not the right word, but I'm already getting too pedantic.)) I've ignored it, but the web is full of it. And your GPU is doing it all the time, it's its entire purpose even.
+
+Also I really want to mention floating point numbers vs integers, but that's really only necessary to understand if you are actually a programmer…
+
+TLDR;
+What: bits and bytes, text encodings, websites are just text, computers are sequential not parallel (‡)
+Why: recognising typical bugs (it's not you that's wrong, it's the code), fearmongering prevention (scammers try to make you panic to buy their “solutions”)
