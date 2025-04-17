@@ -1,6 +1,9 @@
 # AI art
 
-It's hated and loved; it's complicated.
+It's hated by most and loved by a lot; it's complicated.
+
+This is a really good video on the topic, actually: <https://www.youtube.com/watch?v=Ztv7iL9RDe0>. Watch it, not for the
+trick it provides, but for the essay. (The trick: Add `before:2023` to your searches.)
 
 ## Opinions
 
